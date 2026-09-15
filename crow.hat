@@ -1,0 +1,111 @@
+fetch("https://crowmail.sbs/api/mail?endpoint=%2Faccounts", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?1",
+    "sec-ch-ua-platform": "\"Android\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-api-provider-base-url": "https://api.crowmail.sbs"
+  },
+  "referrer": "https://crowmail.sbs/en",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"address\":\"dCKj69kwzz@crowmail.sbs\",\"password\":\"Y7LT3Yag9eNT\",\"expiresIn\":0}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "omit"
+});
+fetch("https://crowmail.sbs/api/mail?endpoint=%2Ftoken", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?1",
+    "sec-ch-ua-platform": "\"Android\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-api-provider-base-url": "https://api.crowmail.sbs"
+  },
+  "referrer": "https://crowmail.sbs/en",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"address\":\"dCKj69kwzz@crowmail.sbs\",\"password\":\"Y7LT3Yag9eNT\"}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "omit"
+});
+fetch("https://crowmail.sbs/api/mail?endpoint=%2Fme", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3NmJhMjBjZS0zNGVlLTQ0ZmQtODc2YS05YmQ3MzZkYjEzMWQiLCJhZGRyZXNzIjoiZGNrajY5a3d6ekBjcm93bWFpbC5zYnMiLCJleHAiOjE3OTAwOTE2OTcsImlhdCI6MTc4OTQ4Njg5N30.zwd8W2WHOwiot8nRb5WOHAKRKfXn-hYJ1_h8EIZ6yQY",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?1",
+    "sec-ch-ua-platform": "\"Android\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-api-provider-base-url": "https://api.crowmail.sbs"
+  },
+  "referrer": "https://crowmail.sbs/en",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+fetch("https://crowmail.sbs/api/mail?endpoint=%2Fmessages%3Fpage%3D1", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3NmJhMjBjZS0zNGVlLTQ0ZmQtODc2YS05YmQ3MzZkYjEzMWQiLCJhZGRyZXNzIjoiZGNrajY5a3d6ekBjcm93bWFpbC5zYnMiLCJleHAiOjE3OTAwOTE2OTcsImlhdCI6MTc4OTQ4Njg5N30.zwd8W2WHOwiot8nRb5WOHAKRKfXn-hYJ1_h8EIZ6yQY",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?1",
+    "sec-ch-ua-platform": "\"Android\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-api-provider-base-url": "https://api.crowmail.sbs"
+  },
+  "referrer": "https://crowmail.sbs/en",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+fetch("https://crowmail.sbs/api/mail?endpoint=%2Faccounts%2Fme%2Fpassword", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3NmJhMjBjZS0zNGVlLTQ0ZmQtODc2YS05YmQ3MzZkYjEzMWQiLCJhZGRyZXNzIjoiZGNrajY5a3d6ekBjcm93bWFpbC5zYnMiLCJleHAiOjE3OTAwOTE2OTcsImlhdCI6MTc4OTQ4Njg5N30.zwd8W2WHOwiot8nRb5WOHAKRKfXn-hYJ1_h8EIZ6yQY",
+    "cache-control": "no-cache",
+    "content-type": "application/json",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?1",
+    "sec-ch-ua-platform": "\"Android\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-api-provider-base-url": "https://api.crowmail.sbs"
+  },
+  "referrer": "https://crowmail.sbs/en",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"old_password\":\"Y7LT3Yag9eNT\",\"new_password\":\"123456789\"}",
+  "method": "PATCH",
+  "mode": "cors",
+  "credentials": "include"
+});
